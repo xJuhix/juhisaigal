@@ -1,6 +1,6 @@
 import React from 'react';
-import Navigation from './components/layout/Navigation';
-import Footer from './components/layout/Footer';
+import Navigation from './layout/Navigation';
+import Footer from './layout/Footer';
 import './sass/style.scss';
 
 function App() {
