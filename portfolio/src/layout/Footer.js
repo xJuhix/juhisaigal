@@ -4,11 +4,17 @@ import {
   FaGitHub,
   FaEnvelope,
 } from 'react-icons/fa';
+import logo from '../images/logo.svg';
 
 function Footer() {
   return (
     <>
       <footer className="footer">
+        <img
+            src={logo}
+            className="d-inline-block align-top nav__brand"
+            alt="WittigNotes logo"
+        />
         <div className="footer__container">
           <div className="footer__text">
             <p>&copy; 2022 Juhi Saigl</p>
